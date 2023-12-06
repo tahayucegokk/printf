@@ -11,7 +11,8 @@
 /* ************************************************************************** */
 
 #include "ft_printf.h"
-#include <stdio.h>
+#include <unistd.h>
+#include <stdarg.h>
 
 int	ft_putchar(char c)
 {

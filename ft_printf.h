@@ -6,13 +6,14 @@
 /*   By: muyucego <muyucego@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/06 15:24:52 by muyucego          #+#    #+#             */
-/*   Updated: 2023/12/06 15:27:22 by muyucego         ###   ########.fr       */
+/*   Updated: 2023/12/06 15:32:17 by muyucego         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef FT_PRINTF_H
 # define FT_PRINTF_H
 
+int		ft_putchar(char c);
 int		ft_printf(const char *str, ...);
 int		ft_putstr(char *str);
 int		ft_putpoint(unsigned long a, int sign);
